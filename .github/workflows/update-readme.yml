@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: bytes-karnav/github-activity-readme@master
+      - uses: bytes-karnav/bytes-karnav@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
